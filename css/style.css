@@ -48,3 +48,19 @@ Keywords: eCommerce, Template etc.
   width: 100% !important;
   overflow: hidden;
 }
+
+/* Featured Properties start */
+.custom-featured-property img {
+  width: 200px;
+  margin-top: -40px;
+}
+
+/* Footer Start */
+.custom-footer-product-list ul li {
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
+.custom-footer-product-list ul li a:link {
+  text-decoration: none !important;
+}
