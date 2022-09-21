@@ -1,34 +1,23 @@
 /* 
 
-Template: Riode Ecommerce 
+Template: Real State Landing Page 
 Author: Shuvo Mallick
-Description: Complete ecommerce Template
+Description: Real State Template
 Version: 1.0.0
-Keywords: eCommerce, Template etc. 
+Keywords: Real State, Template etc. 
 
 */
 
-/* =============== *** =============== */
-/* ===== Home Page css ===== */
-/* ===== Login Page & Registration Page CSS ===== */
-/* ===== Product Page CSS ===== */
-/* ===== Blog Page CSS ===== */
-/* ===== Footer CSS ===== */
-/* ===== Login Page & Registration Page CSS ===== */
-/* =============== *** =============== */
-
 /* ===== style list table ===== */
 /* 
-  1. utilities class 
-  2. header section
-  3. hero section
-  4. feature products section
-  5. Browse Caegories 
-  6. Support section 
-  7. Product page 
-  8. Blog page
-  9. footer 
-  10. login page and registration page
+  1. header section
+  2. hero section
+  3. How Its works section
+  4. Featured Properties
+  5. Statistics section 
+  6. How Its works
+  7. footer 
+  
   */
 /* ===== style list table ===== */
 
@@ -38,8 +27,6 @@ Keywords: eCommerce, Template etc.
 
 /* ===== How Its Work Start ===== */
 .custom-border {
-  /* width: 20px;
-  margin: auto; */
 }
 
 /* ===== Featured Properties start ===== */
