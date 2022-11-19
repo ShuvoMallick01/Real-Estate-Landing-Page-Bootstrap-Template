@@ -40,13 +40,13 @@
   </head>
   <body>
     <!-- Header Nav Start -->
-    <header>
+    <header class="sticky-top shadow-sm">
       <nav class="navbar navbar-expand-lg bg-light py-4">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="./index.html">
             <img
               src="./assets/images/skyber-logo.svg"
-              class="img-fluid"
+              class="img-fluid me-5"
               alt="logo"
             />
           </a>
@@ -61,31 +61,33 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!-- Nav bar -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav custom-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Listed</a>
+                <a class="nav-link" href="#listed">Listed</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
 
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-lg-0">
               <li class="nav-item me-auto">
-                <a class="nav-link" href="#">Sign In</a>
+                <a class="nav-link me-3" href="#">Sign In</a>
               </li>
               <li class="nav-item me-auto">
-                <a class="btn btn-primary" href="#">Sign Up</a>
+                <a class="btn btn-secondary" href="#">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -97,29 +99,29 @@
     <!-- Banner Start -->
     <section class="bg-light">
       <div class="container">
-        <div class="row">
+        <div class="row hero-area">
           <div
             class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-md-start align-items-center text-md-start text-center"
           >
             <p class="text-muted text-md-start text-center">
               Welcome to Besnik Agency
             </p>
-            <h2 class="h1">
+            <h2 class="fw-bold mb-3">
               Discover a place <br />
               you'll love to live.
             </h2>
-            <p class="text-muted">
+            <p class="text-muted paragraph">
               get the best real estate deals first, before they hit the mass
               market! HOT FORECLOSURE DEALS with one simple search
             </p>
-            <button class="btn btn-dark text-md-start text-center">
+            <button class="btn btn-primary text-md-start text-center mt-3">
               More Abotu Us
             </button>
           </div>
 
           <div class="col-lg-6 d-sm-block d-none">
             <img
-              src="./assets/images/banners/banner.png"
+              src="./assets/images/banners/banner-03.png"
               class="img-fluid"
               alt=""
             />
@@ -134,17 +136,25 @@
       <div class="container">
         <div class="row py-5">
           <div class="col-md-6 text-lg-start text-center">
-            <img src="./assets/images/Logo.png" class="img-fluid" alt="" />
+            <img
+              src="./assets/images/skyber-logo.svg"
+              class="img-fluid w-25"
+              alt=""
+            />
             <p class="text-muted pt-3">
               More than 45,000+ companies trust bensik
             </p>
           </div>
 
           <div class="col-md-6 text-lg-end text-center">
-            <img src="./assets/images/Logo.png" class="img-fluid" alt="" />
-            <p class="text-muted pt-3">
-              More than 45,000+ companies trust bensik
-            </p>
+            <div>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <p class="text-muted pt-3">5 Star Ratings (2k+ Review)</p>
           </div>
         </div>
 
@@ -190,13 +200,13 @@
     <!-- Trusted company section End -->
 
     <!-- How Its Work Start -->
-    <section class="">
+    <section class="" id="features">
       <div class="container">
         <div class="row py-5">
           <div
             class="custom-border col-1 border-top my-1 border-3 border-dark m-auto"
           ></div>
-          <h2 class="text-center">How its works?</h2>
+          <h2 class="text-center fw-bold">How its works?</h2>
           <p class="text-muted text-center">
             Everything you need to know when you're looking to buy, <br />
             rent, or sell - all in one place.
@@ -252,7 +262,7 @@
         <!-- End List -->
 
         <div class="text-center pb-5">
-          <div class="btn btn-dark">Sell Full Guidelines</div>
+          <div class="btn btn-primary">Sell Full Guidelines</div>
         </div>
         <!-- End -->
       </div>
@@ -260,11 +270,11 @@
     <!--  How Its Work End -->
 
     <!-- Featured Properties Start -->
-    <section class="bg-light pb-5">
+    <section class="bg-light pb-5" id="service">
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-6 text-lg-start text-center">
-            <h2 class="">Featured Properties</h2>
+            <h2 class="fw-bold">Featured Properties</h2>
             <p class="text-muted">
               Everything you need to know when you're looking
             </p>
@@ -358,7 +368,7 @@
     <!-- Featured Properties End -->
 
     <!-- Neighborhood Status Start -->
-    <section>
+    <section class="" id="listed">
       <div class="container">
         <div class="row py-sm-5 py-0">
           <div class="col-md-6">
@@ -371,7 +381,7 @@
 
           <div class="col-md-6 p-5 pe-sm-0">
             <div class="col-1 border-top my-1 border-3 border-dark"></div>
-            <h2 class="pb-3">
+            <h2 class="pb-3 fw-bold">
               You’ve found a <br />
               neighborhood you love.
             </h2>
@@ -407,14 +417,14 @@
     <!-- How its works Start -->
     <section>
       <div class="container py-5">
-        <div class="row bg-primary rounded-3 align-items-center">
+        <div class="row bg-success rounded-3 align-items-center">
           <div class="col-6 p-5 lign-content-center">
-            <h2 class="text-light">How its works?</h2>
+            <h2 class="text-light fw-bold">How its works?</h2>
             <p class="text-light">
               Everything you need to know when you're looking to buy, <br />
               rent, or sell - all in one place.
             </p>
-            <div class="btn btn-light">Get Started Now</div>
+            <div class="btn btn-primary">Get Started Now</div>
           </div>
 
           <div class="custom-featured-property col-6 text-center">
@@ -430,7 +440,7 @@
     <!-- How its works End -->
 
     <!-- Footer Start -->
-    <footer class="bg-light py-5">
+    <footer class="bg-light py-5" id="contact">
       <div class="container">
         <div class="row">
           <!-- Single List -->
@@ -528,8 +538,8 @@
           <div class="col-md-6 text-md-start text-sm-center text-center">
             <a class="navbar-brand" href="#">
               <img
-                src="./assets/images/Logo.png"
-                class="img-fluid"
+                src="./assets/images/skyber-logo.svg"
+                class="img-fluid w-25"
                 alt="logo"
               />
             </a>
