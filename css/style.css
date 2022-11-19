@@ -25,6 +25,16 @@ Keywords: Real State, Template etc.
 /* ===== Home Page CSS ===== */
 /* ====================== Next Page ====================== */
 
+/* Import CSS Files */
+@import "./utilities.css";
+@import "./responsive.css";
+
+/* ===== Nav Bar ===== */
+.navbar .navbar-brand img {
+  max-width: 110px;
+  width: 100%;
+}
+
 /* ===== How Its Work Start ===== */
 .custom-border {
 }
