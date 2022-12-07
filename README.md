@@ -1,6 +1,6 @@
 # Real State Landing Page Bootstrap Template
 
-Live Site: https://shuvomallick01.github.io/Real-State-Landing-Page-Bootstrap-Template/
+Live Site: https://shuvomallick01.github.io/Real-Estate-Landing-Page-Bootstrap-Template/
 
 ## Overview
 
